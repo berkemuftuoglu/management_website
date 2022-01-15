@@ -1,0 +1,24 @@
+{% extends 'base_content.html' %}
+{% load bootstrap_pagination %}
+{% block content %}
+    <div class="container">
+    <div class="row">
+    <div class="col-9">
+        <h2>Clubs</h2>
+        <br>
+        <table class="table">
+            {% for club, owner in owners %}
+                <tr>
+                    <td>{{ club.name }}</td>
+                    <td>Owner: {{ owner.full_name }}</td>
+                    <td>Bio: {{ owner.bio }}</td>
+                    <td>location: {{ club.location }}</td>
+                    <td>mission: {{ club.mission_statement }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <br>
+    </div>
+{% endblock %}
+</div>
+</div>

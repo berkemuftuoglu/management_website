@@ -1,0 +1,58 @@
+[
+  {
+    "model": "clubs.user",
+    "pk": 2,
+    "fields": {
+      "first_name": "Jamie",
+      "last_name": "Doe",
+      "email": "jamiedoe@example.org",
+      "bio": "The dog chases the cat who ate the mouse.",
+      "experience_level": "I am a trainee.",
+      "personal_statement": "I love trying new things.",
+      "password": "pbkdf2_sha256$260000$pILinojg9wMnsFm4bzW9LQ$PgODjeC0Rz9GVDdVHRCbjIWUbXwP/boO6kpydA/SIrU=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 3,
+    "fields": {
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "janedoe@example.org",
+      "bio": "The quick brown fox jumps over the lazy dog.",
+      "experience_level": "I am a beginner.",
+      "personal_statement": "I am a second-year student.",
+      "password": "pbkdf2_sha256$260000$pILinojg9wMnsFm4bzW9LQ$PgODjeC0Rz9GVDdVHRCbjIWUbXwP/boO6kpydA/SIrU=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 4,
+    "fields": {
+      "first_name": "James",
+      "last_name": "Doe",
+      "email": "jamesdoe@example.org",
+      "bio": "I am James.",
+      "experience_level": "I am an amateur.",
+      "personal_statement": "I am a MSc student.",
+      "password": "pbkdf2_sha256$260000$pILinojg9wMnsFm4bzW9LQ$PgODjeC0Rz9GVDdVHRCbjIWUbXwP/boO6kpydA/SIrU=",
+      "is_active": true
+    }
+  },
+  {
+    "model": "clubs.user",
+    "pk": 5,
+    "fields": {
+      "first_name": "Jenny",
+      "last_name": "Doe",
+      "email": "jennydoe@example.org",
+      "bio": "Jenny D.",
+      "experience_level": "I am a grandmaster.",
+      "personal_statement": "I am a professional chess player.",
+      "password": "pbkdf2_sha256$260000$pILinojg9wMnsFm4bzW9LQ$PgODjeC0Rz9GVDdVHRCbjIWUbXwP/boO6kpydA/SIrU=",
+      "is_active": true
+    }
+  }
+]
