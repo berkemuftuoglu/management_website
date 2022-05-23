@@ -1,7 +1,4 @@
-# Team *Manatee* Small Group project
-
-## Team members
-The members of the team are:
+## Authors
 - *Sayem Ahmed*
 - *Cheung Fung Wilson Mak*
 - *Aaron Gomes*
